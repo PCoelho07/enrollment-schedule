@@ -42,6 +42,18 @@
                                 <p>Minhas turmas</p>
                             </a>
                         </li>
+                        <li>
+                            <a href="#">
+                                <i class="material-icons">settings</i>
+                                <p>Configurações</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="material-icons">insert_chart</i>
+                                <p>Gráficos e estatísticas</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -57,7 +69,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#">
-                                <p>Olá @yield('user')!</p>
+                                <p>Olá @yield('user') :)</p>
                             </a>
                         </div>
                         <div class="collapse navbar-collapse">
