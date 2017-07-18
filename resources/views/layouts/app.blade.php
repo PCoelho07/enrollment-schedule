@@ -57,7 +57,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#">
-                                @yield('title')
+                                <p>Olá @yield('user')!</p>
                             </a>
                         </div>
                         <div class="collapse navbar-collapse">
