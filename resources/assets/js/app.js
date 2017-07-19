@@ -16,7 +16,9 @@ window.Vue = require('vue');
  */
 
 Vue.component('example', require('./components/Example.vue'));
-
+Vue.component('charts', require('./components/Charts.vue'));
+// Vue.config.delimiters = ['${', '}'];
 const app = new Vue({
+	delimiters: ['@{', '}'],
     el: '#app'
 });

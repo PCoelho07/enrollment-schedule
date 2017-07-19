@@ -1,4 +1,3 @@
-
 <template>
     <div class="container">
         <div class="row">
@@ -7,7 +6,7 @@
                     <div class="panel-heading">Okay </div>
 
                     <div class="panel-body">
-                       Yes, Bitch
+                       Yes motherfucker
                     </div>
                 </div>
             </div>
@@ -22,9 +21,6 @@
             return {
                 title: 'Ola mundo!'            
             }
-        },
-        mounted() {
-            console.log('Component mounted.')
         },
         methods: {
             teste: function() {
