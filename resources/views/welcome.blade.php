@@ -6,8 +6,7 @@
 
 
 @section('content')
-    @include('layouts.cards')
     <div class="row">
-        <charts title="Testando" category="testando category"></charts> 
+        <classes></classes>
     </div>
 @endsection

@@ -844,6 +844,7 @@ window.Vue = __webpack_require__(40);
 
 Vue.component('example', __webpack_require__(37));
 Vue.component('charts', __webpack_require__(36));
+Vue.component('classes', __webpack_require__(52));
 // Vue.config.delimiters = ['${', '}'];
 var app = new Vue({
   delimiters: ['@{', '}'],
@@ -42046,6 +42047,148 @@ module.exports = function(module) {
 __webpack_require__(9);
 module.exports = __webpack_require__(10);
 
+
+/***/ }),
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+
+    data: function data() {
+        return {
+            title: 'Turmas do próximo semestre',
+            turmas: [{ nome: 'nomeTeste', turno: 'turnoTeste' }]
+        };
+    },
+    mounted: function mounted() {},
+    methods: {}
+});
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(7)(
+  /* script */
+  __webpack_require__(51),
+  /* template */
+  __webpack_require__(53),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/home/pcoelho/Documentos/Programação/Php Projects/enrollment_schedule/resources/assets/js/components/Classes.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Classes.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-14f8d208", Component.options)
+  } else {
+    hotAPI.reload("data-v-14f8d208", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "card"
+  }, [_c('div', {
+    staticClass: "card-header",
+    attrs: {
+      "data-background-color": "green"
+    }
+  }, [_c('h4', {
+    staticClass: "title"
+  }, [_vm._v(_vm._s(_vm.title))])]), _vm._v(" "), _c('div', {
+    staticClass: "card-content table-responsive"
+  }, [_c('table', {
+    staticClass: "table table-hover table-striped"
+  }, [_vm._m(0), _vm._v(" "), _c('tbody', _vm._l((_vm.turmas), function(t) {
+    return _c('tr', [_vm._m(1, true), _vm._v(" "), _c('td', [_vm._v("\n                        " + _vm._s(t.nome) + "\n                    ")]), _vm._v(" "), _c('td', [_vm._v("\n                        " + _vm._s(t.turno) + "\n                    ")])])
+  }))])])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('thead', [_c('th', [_vm._v("#")]), _vm._v(" "), _c('th', [_vm._v("Nome")]), _vm._v(" "), _c('th', [_vm._v("Turno")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('td', [_c('div', {
+    staticClass: "checkbox"
+  }, [_c('label', [_c('input', {
+    attrs: {
+      "type": "checkbox",
+      "name": "optionsCheckboxes"
+    }
+  })])])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-14f8d208", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
