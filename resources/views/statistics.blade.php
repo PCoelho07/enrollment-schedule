@@ -7,6 +7,6 @@
 
 @section('content')
     <div class="row">
-        <classes></classes>
+        <charts title="Teste" category="teste"></charts>
     </div>
 @endsection

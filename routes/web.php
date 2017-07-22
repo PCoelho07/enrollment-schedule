@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/statistics', 'HomeController@statistics');
+Route::get('/config', 'HomeController@config');
